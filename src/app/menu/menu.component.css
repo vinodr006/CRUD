@@ -1,3 +1,12 @@
+.spacer {
+    flex: 1 1 auto;
+  }
+  app-sidenav{
+    position: absolute;
+    left: 0rem;
+    width: 100px;
+    height: calc(100vh - 4rem);
+}
 .black-border{
     border: 1px solid black;
 }

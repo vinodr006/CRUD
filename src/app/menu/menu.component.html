@@ -1,0 +1,21 @@
+<div>
+    <mat-toolbar color="primary">
+       <span>Kanbel</span>
+       <div class="spacer"></div>
+    <a mat-button class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
+    <a mat-button class="nav-link" routerLink="/users" routerLinkActive="active">Users</a>
+    <a mat-button class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
+    <a mat-button class="nav-link" routerLink="/#" routerLinkActive="active">Contact</a>
+    <a mat-raised-button color="accent" class="nav-link" routerLink="/login" routerLinkActive="active">Login</a>
+    
+    </mat-toolbar>
+    <!--<app-sidenav class="black-border">
+    </app-sidenav>
+    <main>
+    
+        <div class="display-area">
+        </div>
+      </main>-->
+    <router-outlet></router-outlet>
+    
+    </div> 
